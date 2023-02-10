@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezume Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+     <legend> <h2>My Rezume</h2> </legend>
+<p>
+    <label for="photo"> Your Photo: </label><br><br>
+  <input type="file" id="image" accept="image/pdf, image/jpg"><br><br>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required autofocus autocomplete><br><br>
+
+    <label for="Gender">Gender</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label for="number">Phone number</label>
+    <input type="number" name="number" required ><br><br>
+
+    <label for="E-mail">E-mail Address</label>
+    <input type="E-mail" name="E-mail" required autocomplete autofocus><br><br>
+</p>
+<h4>Education</h4>
+<p>
+    <ul>
+        <li><input type="text" placeholder="Latest Education detail" autofocus autocomplete required></li><br>
+        <input type="text" placeholder="Courses undertaken"><br><br>
+        <li><input type="text" placeholder="Other Education detail" autofocus required autocomplete></li><br>
+        <input type="text" placeholder="Extra-cirriculars,councils"><br><br>
+        <li><input type="text" placeholder="More Education detail" autofocus autocomplete></li><br>
+        <input type="text" placeholder="Grades"><br><br>
+    </ul>
+</p><hr>
+    <h4>Work Experience</h4>
+    <ul>
+        <li><input type="text" placeholder="Latest/Ongoing Job" autocomplete autofocus required></li><br>
+        <input type="text" placeholder="Job description, roles"><br><br>
+        <li><input type="text" placeholder="Any previous Jobs"></li><br>
+        <input type="text" placeholder="In charge of"><br><br>
+        <li><input type="text" placeholder="Job/Internships"></li><br>
+        <input type="text" placeholder="Worked using tools/database"><br><br>
+    </ul>
+
+    <h4>Any other notable Works you wuld like to mention</h4>
+    <p>
+    <textarea name="message" rows="10" cols="30"></textarea>
+    </p>
+<hr>
+    <h4>Positions of responsibilities</h4>
+    <p>Select if you have ever been in these positions of responsibilities:</p>
+    <select>
+        <option value="">Company Director</option>
+        <option value="">Country Head</option>
+        <option value="">Lead a division</option>
+        <option value="">Student Council College</option>
+        <option value="">Technical Club College</option>
+    </select>
+    <p>Mention if any other:</p>
+    <p>
+        <textarea name="message" rows="10" cols="30"></textarea>
+    </p>
+<hr>
+    <h4>Skills</h4>
+    <p>Check the skills you think you have!<em>Mention any other that are not mentioned here but relevant to you!</em></p>
+    
+<label for="">Frontend Web development</label>
+<input type="checkbox"><br>
+<label for="">Backend Web development</label>
+<input type="checkbox"><br>
+<label for="">C++/Java</label>
+<input type="checkbox"><br>
+<label for="">AI, Machine learning</label>
+<input type="checkbox"><br>
+<label for="">Cyber Security</label>
+<input type="checkbox"><br>
+<label for="">Logic, mathematics</label>
+<input type="checkbox"><br>
+<label for="">Effective Communication</label>
+<input type="checkbox"><br>
+<p>Other skills</p>
+<input type="text"><br><br>
+
+
+<input type="submit"> &nbsp;
+<input type="reset">
+
+
+
+
+
+
+
+</fieldset>
+    
+</body>
+</html>
